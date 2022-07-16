@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRetrofit"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="GibListView"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtbuscarapi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Posts" />
+
+        <Button
+            android:id="@+id/btnbuscarapi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Buscar"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnmostrarapi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:text="Mostrar"
+            android:textSize="10sp"
+
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
